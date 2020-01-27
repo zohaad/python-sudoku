@@ -1,0 +1,3 @@
+# Sudoku solver project
+
+This project is me trying to learn project structure in python and maybe some web stuff later on...
