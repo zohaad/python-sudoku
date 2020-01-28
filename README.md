@@ -28,11 +28,13 @@ Create the virtualenv:
 
 `python -m venv ~/Cache/virtualenvs/sudoku-venv`
 
-Install the package:
-`~/Cache/virtualenvs/sudoku-venv/bin/pip install ~/Projects/sudoku`
-
 Add to path:
 `source ~/Cache/virtualenvs/sudoku-venv/bin/activate`
+
+Install the package:
+`~/Cache/virtualenvs/sudoku-venv/bin/pip install -e ~/Projects/sudoku`
+
+(-e is "editable")
 
 Then execute:
 `sudoku`
